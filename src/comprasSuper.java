@@ -7,15 +7,15 @@ public class comprasSuper {
         int cantidadDeProductos = 0;
         String producto;
 
-        System.out.println("cuantos productos se va ingresar");
+        System.out.println("cuantos productos se va ingresar: ");
         cantidadDeProductos = numeros.nextInt();
 
         for (int i = 0; i < cantidadDeProductos; i++) {
-            System.out.println("Ingrese el producto");
+            System.out.println("Ingrese el producto: ");
             producto = letras.nextLine();
 
             if (producto.equals("leche") || producto.equals("arroz") || producto.equals("pan") || producto.equals("polenta")) {
-                System.out.println("Este producto tiene un 15% de descuento");
+                System.out.println("Este producto tiene un 15% de descuento.");
             }
         }
 
